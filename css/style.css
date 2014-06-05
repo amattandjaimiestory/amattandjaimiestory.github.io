@@ -1,0 +1,546 @@
+
+html {
+	height: 100%;
+	background: #5683a0;
+	background: -moz-linear-gradient(top, #8C96AA 0%, #7288B3 100%) repeat scroll;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5683a0), color-stop(100%,#467c82));
+	background: -webkit-linear-gradient(top, #5683a0 0%,#467c82 100%);
+	background: -o-linear-gradient(top, #5683a0 0%,#467c82 100%);
+	background: -ms-linear-gradient(top, #5683a0 0%,#467c82 100%);
+	background: linear-gradient(top, #5683a0 0%,#467c82 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5683a0', endColorstr='#467c82',GradientType=0 );
+	background-attachment:  fixed;
+}
+
+body {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Coming Soon', sans-serif;
+	font-size: 1em;
+	color: #7C764F;
+	text-align: center;
+	line-height: 1.4;
+	width: 1000px;
+	border: 1px solid #7C764F;
+	background: #fff;
+	border-radius: 7px;
+	border: 1px solid #b3b3b3;
+	box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+}
+::selection { background: #CFC57B; }
+::-moz-selection { background: #CFC57B }
+
+a {
+	color: #5683a0;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	outline: 0;
+	color: #467c82;
+	font-size: 0.95em;
+}
+
+a.plain {
+	font-family: sans-serif;
+	color: #5683a0;
+	text-decoration: none;
+}
+
+a.plain:hover, a.plain:focus {
+	opacity:1;
+	font-size:1em;
+}
+
+header a:hover, header a:focus {
+	outline: 0;
+	border: 0;
+}
+
+header {        
+	font-size: 4em;
+	text-align: center;
+	font-family: 'Londrina Sketch', sans-serif;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #808080;
+}
+
+header a {
+	color: #7C764F;
+	text-decoration: none;
+}
+
+header a:hover, header a:focus {
+	outline: 0;
+	border: 0;
+}
+
+#subheader {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Coming Soon', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Swanky and Moo Moo', sans-serif;
+	font-size: 1.25em;
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
+}
+
+h2.subtitle {
+	font-family: 'Swanky and Moo Moo', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
+}
+
+nav[role="menu"] {
+	margin: auto;
+	padding: 5px 0 5px 0;
+	width: 80%;
+}
+
+nav[role="menu"] table {
+	height: 35px;
+}
+
+nav[role="menu"] a {
+	margin: 0 10px 0 10px;
+	font-size: 18px;
+	padding: 0 5px 0 5px;
+}
+
+nav[role="menu"] a:hover {
+	background: #F2EAD7;
+	border-radius: 3px;
+	padding: 0 5px 0 5px;
+	box-shadow: 1px 0 1px #808080;
+}
+
+nav[role="menu"] a.selected {
+	background: #EADEBE;
+	border-radius: 3px;
+	padding: 0 5px 0 5px;
+	box-shadow: 1px 0 1px #808080;
+}
+
+#seperator {
+	height: 3px;
+	background: #D8D6D6;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius:5px;
+}
+
+nav[role="browse"] {
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px 0 5px 0;
+}
+
+.invite {
+	font-family: 'The Girl Next Door';
+	font-size: 24px;
+	color: #595858;
+	background: #EDE9E1 url('/img/invbg.png');
+  border-radius: 10px;
+	text-shadow: 1px 1px #E5E5E5;
+	box-shadow: 0 0 3px 3px grey;
+}
+
+.invite table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.invite ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.invite ul li.names {
+	font-family: 'Ribeye Marrow';
+	font-size: 36px;
+	padding: 0 0 10px 0;
+}
+
+.curly {
+  margin-top: 20px;
+  height: 100%;
+	width: 100%;
+  opacity: 0.65;
+}
+
+.curly img {
+  height: 570px;
+	width: 140px;
+}
+
+#rsvp_form {
+	margin-top: 10px;
+	padding: 10px 10px 20px 10px;
+	background-color: rgba(178, 178, 178, 0.45);
+	border: 1px solid #888;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px #808080;
+}
+
+#rsvp_title {
+	font: 30px Ribeye Marrow;
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+
+.rsvp_subtitle {
+	font: 14px Walter Turncoat;
+}
+
+.attendance_message {
+	font-size: 18px;
+	background-color: rgba(178, 178, 178, 0.45);
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	padding: 3px;
+}
+
+.invite ul li.rsvp {
+	padding-top: 20px;
+}
+
+.invite ul li.rsvp a {
+	font-family: 'Swanky and Moo Moo';
+	background: #fff;
+	border: 1px solid #595858;
+	border-radius: 4px;
+	padding: 0 5px 0 5px;
+	font-size: 32px;
+}
+
+.invite ul li.rsvp a:hover {
+	background: #F5F5F5;
+}
+
+#rsvp_submit:hover {
+	font-size: 16px;
+}
+
+nav[role="browse"] table {
+	height: 40px;
+}
+
+nav[role="browse"] a {
+	border: 1px solid #7C764F;
+	background: #BFBFBB;
+	border-radius: 3px;
+	padding: 2px 5px 0 5px;
+}
+
+nav[role="browse"] a:hover, nav[role="browse"] a:focus {
+	font-size: 1em;
+	opacity: 1;
+	background: #CCCCC9;
+}
+
+nav[role="browse"] a:active { box-shadow: 0 0 3px #999999; }
+
+footer {
+	font-size: .6em;
+	margin-bottom: 2px;
+}
+
+#main {
+	text-align: left;
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+#panels {
+	margin: 0 auto;
+	padding: 15px;
+}
+
+div.img_container {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+
+div.img_container img {
+	height: 350px;
+	width: 800px;
+}
+
+.error {
+	width: 300px;
+	margin: 0 auto;
+	background: #fff;
+	color: #C5535F;
+	font-family: 'Walter Turncoat';
+	text-align: center;
+	border: 1px solid #C5535F;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+#about_page p {
+	font-family: 'Walter Turncoat';
+}
+
+#contact_page {
+	font-family: 'Walter Turncoat';
+}
+
+#add_shout_link {
+	text-align: center;
+	padding: 10px;
+}
+
+#shouts {
+	margin: 0 auto;
+}
+
+#shout_form_wrapper {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #F4F4EF;
+	border-radius: 5px;
+	box-shadow: 0 1px 3px #808080;
+	width: 400px;
+}
+
+#shout_form_wrapper table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td.spacer {
+	padding: 15px 0 0 0;
+}
+
+#shout_form_wrapper input[type="text"] {
+	width: 100%;
+	font: 14px 'Walter Turncoat';
+	color: #544D38;
+	background: #fff;
+	border: 1px solid #A8A6A6;
+	border-radius: 3px;
+}
+
+#shout_form_wrapper textarea {
+	width: 100%;
+	height: 100px;
+	font: 13px 'Walter Turncoat';
+	color: #544D38;
+	background: #fff;
+	border: 1px solid #A8A6A6;
+	border-radius: 3px;
+}
+
+#yes, #no button {
+	padding: 3px;
+	margin: 0;
+	background: #808080;
+	border: 1px solid #808080;
+	border-radius: 3px;
+	color: #fff;
+	font: 15px 'Walter Turncoat';
+}
+
+#shout_form_wrapper input[type="submit"] {
+	float: right;
+	padding: 3px;
+	margin: 0;
+	background: #808080;
+	border: 1px solid #808080;
+	border-radius: 3px;
+	color: #fff;
+	font: 15px 'Walter Turncoat';
+}
+
+#shout_form_wrapper input[type="submit"]:hover, #shout_form_wrapper input[type="submit"]:focus, #yes:hover, #yes:focus {
+	background: #8595B2;
+	cursor: pointer;
+}
+
+#shouts {
+	max-width: 600px;
+	border: 1px solid #7C7663;
+	padding: 10px 50px 10px 50px;
+	border-radius: 6px;
+	background: #EAEAEA;
+	list-style: none;
+	box-shadow: 1px 2px 2px #808080;
+}
+
+#shouts li { overflow:auto; }
+
+.shout_wrapper_left {
+	min-width: 200px;
+	max-width: 500px;
+	float:left;
+}
+
+.shout_wrapper_right {
+	min-width: 200px;
+	max-width: 500px;
+	float:right;
+	overflow: auto;
+}
+
+.content_bubble_left {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 5px solid #8595B2;
+    border-radius: 10px 10px 10px 10px;
+    /*color: #333333;*/
+    margin: 1em 0 0em;
+    padding: 15px;
+    position: relative;
+		box-shadow: 1px 0 2px #808080;
+}
+
+.content_bubble_left:before {
+	content:"";
+	position:absolute;
+	bottom:-20px; /* value = - border-top-width - border-bottom-width */
+	left: 40px;/*controls horizontal position */
+    border-width:20px 20px 0;
+	border-style:solid;
+    border-color:#8595B2 transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* creates the smaller  triangle */
+.content_bubble_left:after {
+	content:"";
+	position:absolute;
+	bottom:-13px; /* value = - border-top-width - border-bottom-width */
+	left: 50px;/* value = (:before left) + (:before border-left) - (:after border-left) */
+	border-width:13px 13px 0;
+	border-style:solid;
+	border-color:#fff transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+.content_bubble_right {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 5px solid #8595B2;
+    border-radius: 10px 10px 10px 10px;
+    /*color: #333333;*/
+    margin: 1em 0 0em;
+    padding: 15px;
+    position: relative;
+		box-shadow: 1px 0 2px #808080;
+}
+
+.content_bubble_right:before {
+	content:"";
+	position:absolute;
+	bottom:-20px; /* value = - border-top-width - border-bottom-width */
+	right: 40px;/* controls horizontal position */
+    border-width:20px 20px 0;
+	border-style:solid;
+    border-color:#8595B2 transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* creates the smaller  triangle */
+.content_bubble_right:after {
+	content:"";
+	position:absolute;
+	bottom:-13px; /* value = - border-top-width - border-bottom-width */
+	right: 50px;/* value = (:before left) + (:before border-left) - (:after border-left) */
+	border-width:13px 13px 0;
+	border-style:solid;
+	border-color:#fff transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+.datestamp_left {
+	text-align: left;
+	padding-left: 10px;
+	font-size: 11px;
+}
+
+.datestamp_right {
+	text-align: right;
+	padding-right: 10px;
+	font-size: 11px;
+}
+
+.namestamp_left {
+	text-align: left;
+	padding-left: 60px;
+	font-size: 17px;
+}
+
+.namestamp_right {
+	text-align: right;
+	padding-right: 60px;
+	font-size: 17px;
+}
+
+.success div {
+	text-align: center;
+	font: 18px 'Walter TurnCoat';
+	border: 2px solid #E0CD72;
+	box-shadow: 0 0 2px #808080;
+	width: 300px;
+	border-radius: 3px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+
+.news {
+	border: 2px solid #808080;
+	padding: 10px;
+	width: 80%;
+	border-radius: 3px;
+	margin: 0 auto;
+	background: #F2F2F2;
+}
+
+.news h2 {
+	text-align: left;
+}
+
+.news p {
+	font-family: 'Walter Turncoat';
+	margin:0;
+}
+
+#rng {
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0.7;
+	padding: 10px;
+}
+
+.emoti {
+	font-family: 'Walter Turncoat';
+}
